@@ -230,6 +230,8 @@ const main = async (isConfig) => {
 	} else {
 		console.log(chalk.yellow(`A total of ${vault.items.length} accounts were processed, with no duplicates found.`));
 	}
+
+	await new Promise(r => setTimeout(r, 3000));
 };
 
 (async () => {
