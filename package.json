@@ -1,0 +1,12 @@
+{
+  "name": "bitwarden-duplicate-checker",
+  "productName": "Bitwarden Duplicate Checker",
+  "description": "A simple CLI tool designed to scan for duplicate password entries in a Bitwarden vault.",
+  "author": "Brian Walczak",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "enquirer": "^2.4.1"
+  }
+}
